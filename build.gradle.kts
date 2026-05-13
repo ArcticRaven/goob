@@ -10,6 +10,8 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
+    implementation("it.unimi.dsi:fastutil:8.5.18")
+    implementation("org.snakeyaml:snakeyaml-engine:3.0.1")
 }
 
 java {
