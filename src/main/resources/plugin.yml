@@ -6,3 +6,13 @@ api-version: '26.1.2'
 load: POSTWORLD
 
 authors: [ ArcticDev ]
+
+commands:
+  goob:
+    description: Goob admin commands.
+    usage: /goob <reload|silk>
+
+permissions:
+  goob.admin:
+    description: Access to all Goob admin commands.
+    default: op

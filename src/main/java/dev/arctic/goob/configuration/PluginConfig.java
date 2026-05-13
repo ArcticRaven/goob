@@ -154,6 +154,11 @@ public abstract class PluginConfig {
         return logger;
     }
 
+    /** Returns the live YAML node tree. Available to subclasses that need to write entries back at runtime. */
+    protected final MappingNode root() {
+        return root;
+    }
+
     // ── Extension point ──────────────────────────────────────────────────────────
 
     /**
