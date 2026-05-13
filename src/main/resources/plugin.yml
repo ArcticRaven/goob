@@ -1,0 +1,8 @@
+name: goob
+version: '${version}'
+
+main: dev.arctic.goob.Goob
+api-version: '26.1.2'
+load: POSTWORLD
+
+authors: [ ArcticDev ]
